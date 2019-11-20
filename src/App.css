@@ -1,33 +1,158 @@
-.App {
-  text-align: center;
+body {
+    overflow: scroll;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.coffee-icon {
+    color: #fff;
+    margin: 40px 40px 40px 60px;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    transition: ease 0.3s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    height: 120px;
+    width: 100vw;
+    display: flex;
+    overflow-y: visible;
+
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    transition: ease 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.header h1 {
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    margin: 40px 0;
+
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    transition: ease 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header a {
+    font-family: 'Roboto';
+    font-size: 1.15rem;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    transition: ease 0.3s;
 }
+
+.header .space {
+    flex-grow: 1;
+}
+
+.header .nav {
+    padding: 50px 60px 50px 10px;
+    float: right;
+
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    transition: ease 0.3s;
+}
+
+.header .nav a {
+    padding: 10px;
+    margin: 0 3px;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    transition: ease 0.3s;
+}
+
+.header .nav a:hover {
+    background-color: #f6f6f6;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.header .nav a.no-background:hover {
+    background-color: #999999;
+}
+
+.header .nav .button {
+    height: 20px;
+    background-color: #ff6666;
+    color: #fff !important;
+    padding: 10px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.header .nav .button:hover {
+    background-color: #ff9999;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.home.container-first {
+    background-image: url('./assets/coffee-shop.jpg');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.home.container-second {
+    height: 100vh;
+    width: 100vw;
+}
+
+.home h1 {
+    margin: 27vh 10px 35px 12vw;
+    width: 425px;
+    color: #ffffff;
+    font-size: 2.25rem;
+    font-weight: 300 !important;
+}
+
+.home span {
+    display: block;
+    padding-bottom: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 3.25rem;
+    list-style-type: none;
+}
+
+
+
+/*.home .card {*/
+    /*display: inline-block;*/
+    /*height: 400px;*/
+    /*width: 28vw;*/
+    /*background-color: #ffffff;*/
+    /*-webkit-box-shadow: 2px 2px 6px 0px #000;*/
+    /*-moz-box-shadow: 2px 2px 6px 0px #000;*/
+    /*box-shadow: 2px 2px 6px 0px #000;*/
+    /*margin: 10px;*/
+/*}*/
